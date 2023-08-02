@@ -63,7 +63,6 @@ function logInUser(inputEmail) {
     logVariable = inputEmail;
 }
 
-//aqui devia estar a lógica toda do log in
 
 // LOG OUT USER - UPDATE VARIABLE
 
