@@ -122,7 +122,6 @@ function startingPage() {
          
      }
 
-        //não gosto de ter de repetir esta função
     getCurrentUserData()
     
     loginButton.addEventListener("click", function() {
@@ -286,7 +285,7 @@ function displayNavBar() {
         if (searchTest) {
             profileUser = getUser(searchedUser);
             profilePage();
-            //devia alterar apenas os componentes necessários em vez de enviar a página toda?
+        
         } else {
             searchAlert.textContent = searchErrorAlert;
         }
